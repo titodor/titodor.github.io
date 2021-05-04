@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Jan Rendor Nolasco</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="master.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="mgGlitch.min.js"></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	
+
+
+
+</head>
+<body>
+
+	
+		<!--- comment --->
+	<div class="container">
+
+	<div class="header"> 
+		<h2><span class="type"></span></h2>
+	</div>
+		<script type="text/javascript" src="typed.js"></script>
+	
+
+	<script type="text/javascript">
+		var type = new Typed('.type', {
+ 	 strings: ['Hello!', 'I am Jan Rendor Nolasco', 'A Computer Engineer'],
+  	typeSpeed: 60,
+  	backSpeed: 50,
+  	loop: true
+	});
+	</script>
+
+
+	<div class="glitch-img" style="background-image: url(1.jpg)"></div>
+	
+	<script type="text/javascript">
+		$(function(){
+			$(".glitch-img").mgGlitch({
+				destroy: false,
+				glitch: true,
+				scale: true,
+				blend: true,
+				blendModeType: 'hue',
+				glitch1TimeMin: 200,
+				glitch1Timemax: 400,
+				glitch2TimeMin: 10,
+				glitch2TimeMax: 100
+			});
+			
+		});
+	</script>
+
+<
+<div class="media"><i onclick="window.location='https://www.linkedin.com/in/janrendornolasco';" class="fab fa-linkedin-in"></i></div>
+
+<button onclick="window.location='mailto:jrendor@rnolasco.dev';">CONTACT ME</button>
+
+</div>
+
+	
+</body>
+</html>
