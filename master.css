@@ -116,7 +116,7 @@ button:focus{
 		left: 0;
 	}
 	.header{
-		font-size: clamp(5px, 2vw, 250px);
+		font-size: clamp(5px, 1vw, 250px);
 		margin-top: unset;
 		left: 100px;
 
@@ -131,5 +131,5 @@ button:focus{
 
 	.media{
 		bottom:100px;
-		left:40%;
+		left:38%;
 	}
